@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyApplicationSuite">
+  <test thread-count="5" name="Test">
+
+    <classes>
+      <class name="pckg1.AnnotationExample">
+      <!-- <methods>
+      <exclude name ="text.*"/>
+       </methods> -->
+      </class>
+      <class name="pckg2.CheckoutTest"/>
+      <class name="pckg1.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
